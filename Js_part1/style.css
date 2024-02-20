@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#header1{
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    background-color: purple;
+}
+
+.choices{
+    margin: 6rem;
+   display: flex;
+   gap:5rem;
+}
+.choice {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+}
+.choice:hover {
+    cursor: pointer;
+    rotate: -30deg;
+    background-color: black;
+}
+.score{
+    display: flex;
+    align-items: center;
+}
+.compScore{
+   width: 16rem;
+}
+.userScore{
+    width: 16rem;
+}
+
+.winnerText{
+    margin: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.indicateWin{
+    background-color: green;
+}
+
+.indicateLoss{
+    background-color: red;
+}
+.indicateDraw{
+    background-color: black;
+}
+#ExtraInfo{
+    margin: 5rem;
+}
+
+.rock{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.scissor {
+    height: 150px;
+        width: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+}
+
+.paper {
+    height: 150px;
+        width: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+}
